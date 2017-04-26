@@ -9,7 +9,7 @@ function addButton(){
 	button.addClass("btn btn-default giphy-btn");
 	button.attr("id", "item-"+i);
 	button.attr("name", buttonArray[i]);
-	button.css({"background-color": "#20315A", "color": "#fff", "margin":"5px"});
+	button.css({"background-color": "#006666", "color": "#fff", "margin":"5px"});
 	button.text(buttonArray[i]);
 	$("#button-panel").append(button);
 	}

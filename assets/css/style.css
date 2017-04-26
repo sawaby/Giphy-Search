@@ -1,12 +1,12 @@
 
 #head{
-	background-color: #20315A ; 
+	background-color: #006666 ; 
 	color: white;
 	height:117px;
 	padding: 5px;
 }
 .panel-primary>.panel-heading {
-    background-color: #20315A;
+    background-color: #006666;
  	border-color: #2c3e50;   
 }
 
@@ -16,5 +16,5 @@
     margin-right: -12px;
 }
 /*#button-panel{
-	padding: 20px;
+	padding: 20px;#20315A
 }*/
