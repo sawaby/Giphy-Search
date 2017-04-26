@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giphy AJAX API</title>
+	<meta charset="UTF-8">
+	<!-- favicon -->
+	<link rel="icon"  href="assets/images/favicon.png">
+	<!-- Bootstrap File -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ 	 <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- css style link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="jumbotron" id="head">
+			<h1 class="text-center"><strong>Giphy Search</strong></h1>
+		</div>
+		<div class="col-md-4" id="input">
+    		<div class="input-group">
+     			<input type="text" class="form-control" placeholder="Add Button..." id="input-btn">
+      			<span class="input-group-btn">
+        			<button class="btn btn-default" type="button" id="add-button">Add</button>
+      			</span>
+    		</div><!-- /input-group -->
+  		</div>
+  		<!-- buttons panel -->
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title"> <Strong>Search Buttons</Strong> </h3>
+			</div>
+			<div class="panel-body" id="button-panel">
+				
+			</div>
+
+		</div>
+		
+		<!-- image display -->
+		<div class="panel panel-primary">
+
+				<!-- Panel Heading for the retrieved images box -->
+				<div class="panel-heading">
+					<h3 class="panel-title"><strong>Images</strong></h3>
+				</div>
+
+				<!-- This main panel will hold each of the resulting images -->
+				<div class="panel-body" id="image-display">
+				</div>
+			</div>
+
+	</div>
+
+
+
+<!-- linking javascript and jquery files -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

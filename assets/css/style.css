@@ -1,0 +1,20 @@
+
+#head{
+	background-color: #20315A ; 
+	color: white;
+	height:117px;
+	padding: 5px;
+}
+.panel-primary>.panel-heading {
+    background-color: #20315A;
+ 	border-color: #2c3e50;   
+}
+
+#input{
+	float: right;
+	margin: 2px;
+    margin-right: -12px;
+}
+/*#button-panel{
+	padding: 20px;
+}*/
